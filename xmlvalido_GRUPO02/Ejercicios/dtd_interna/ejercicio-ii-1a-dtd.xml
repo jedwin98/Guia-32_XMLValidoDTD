@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/Ejercicios/dtd_interna/CSS/estilo-1a.css" ?>
+<!-- ejemplodtd1.xml -->
+
+<!DOCTYPE fichero [
+<!ELEMENT fichero (a*, ficha+)>
+
+<!ELEMENT a (#PCDATA)>
+  <!ATTLIST a id CDATA #REQUIRED>
+  <!ATTLIST a href CDATA #REQUIRED>
+  <!ATTLIST a xmlns CDATA #FIXED "http://www.w3.org/1999/xhtml">
+  
+<!ELEMENT ficha (nombre, apellido, direccion*, dui?)>
+<!ELEMENT nombre (#PCDATA)>
+  <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+  <!ATTLIST nombre edad  CDATA  #IMPLIED>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT DUI (#PCDATA)>
+]>
+
+<fichero>
+<a id="menu" href="../ejercicio_index.html" xmlns="http://www.w3.org/1999/xhtml">Volver</a>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+ </ficha>
+</fichero>

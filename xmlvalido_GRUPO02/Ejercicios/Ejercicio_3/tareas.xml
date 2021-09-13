@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/Ejercicios/Ejercicio_3/CSS/tareas.css" ?>
+<!DOCTYPE fichero SYSTEM "tareas.dtd">
+<universidad>
+<a id="menu" href="../ejercicio_index.html" xmlns="http://www.w3.org/1999/xhtml">VOLVER</a>
+  <cont1>
+    <facultad codigoF="FIA">
+      <nombreF>Facultad de Ingenieria y Arquitectura</nombreF>
+      </facultad>
+
+      <carrera codigoC ="I10515">
+        <nombreC>Ingenieria de Sistemas Informáticos</nombreC>
+      </carrera>
+
+      <materia codigoM="TPI-115">
+        <nombreM>Técnicas de Programación para Internet</nombreM>
+      </materia>
+  </cont1>
+  
+  <cont2>
+    <tipoG tipo="Teórico">
+      <numeroG>01</numeroG>
+      <Docente>Ing. Carlos Balmore Ortiz</Docente>
+      <evaluacion>Tarea de Investigación</evaluacion>
+      <porcentaje>20%</porcentaje>
+    </tipoG>
+    
+    <cont3 xx="01">
+        <grupoGT>
+        <tema>Introducción al Diseño Web</tema>
+        <carnet>GR15059</carnet>
+        <nombreE>Gabriela </nombreE>
+        <apellidos>Garcia</apellidos>
+        <sexo>F</sexo>
+        <rol>Coordinador</rol>
+      </grupoGT>
+    
+      <grupoGT>
+        <carnet>AL18044</carnet>
+        <nombreE>Ronald</nombreE>
+        <apellidos>Ayala</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>EQ17001</carnet>
+        <nombreE>Francisco</nombreE>
+        <apellidos>Escobar</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>JP17003</carnet>
+        <nombreE>Edwin</nombreE>
+        <apellidos>Jimenez</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+    </cont3>
+    
+    <cont3 xx="02">
+      <grupoGT>
+        <tema>Patrones de Diseño WEB</tema>
+        <carnet>SM19035</carnet>
+        <nombreE>Francisco</nombreE>
+        <apellidos>Santamaria</apellidos>
+        <sexo>M</sexo>
+        <rol>Coordinador</rol>
+      </grupoGT>
+    
+       <grupoGT>
+        <carnet>VP17003</carnet>
+        <nombreE>Erick</nombreE>
+        <apellidos>Velasquez</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>ML18075</carnet>
+        <nombreE>Carlos</nombreE>
+        <apellidos>Marroquin</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+
+      <grupoGT>
+        <carnet>LH14003</carnet>
+        <nombreE>Roberto</nombreE>
+        <apellidos>Lopez</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT> 
+    </cont3>
+    
+    <cont3 xx="03">
+      <grupoGT>
+        <tema>Lenguaje PHP / Framework Laravel</tema>
+        <carnet>AO08005</carnet>
+        <nombreE>Francisco</nombreE>
+        <apellidos>Anaya</apellidos>
+        <sexo>M</sexo>
+        <rol>Coordinador</rol>
+      </grupoGT>
+    
+      <grupoGT>
+        <carnet>RL16024</carnet>
+        <nombreE>José</nombreE>
+        <apellidos>Rivera</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>OL13067</carnet>
+        <nombreE>Rebeca</nombreE>
+        <apellidos>Olmedo</apellidos>
+        <sexo>F</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>AS15005</carnet>
+        <nombreE>Camila</nombreE>
+        <apellidos>Abrego</apellidos>
+        <sexo>F</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+    </cont3>
+    
+  </cont2>  
+  
+  <cont2>
+    <tipoG tipo="Laboratorio">
+      <numeroG>02</numeroG>
+      <Docente>Ing. Carlos Balmore Ortiz</Docente>
+      <evaluacion>Sesión de Lab</evaluacion>
+      <porcentaje>20%</porcentaje>
+    </tipoG>
+<cont3 xx="01">
+      <grupoGT>
+      <tema>Instalacion de Apache Web</tema>
+        <carnet>AO08005</carnet>
+        <nombreE>Francisco</nombreE>
+        <apellidos>Anaya</apellidos>
+        <sexo>M</sexo>
+        <rol>Coordinador</rol>
+      </grupoGT>
+    
+      <grupoGT>
+        <carnet>RL16024</carnet>
+        <nombreE>José</nombreE>
+        <apellidos>Rivera</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>EA15044</carnet>
+        <nombreE>Alejandro</nombreE>
+        <apellidos>Erazo</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>RA15002</carnet>
+        <nombreE>Oscar</nombreE>
+        <apellidos>Rosales</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      </cont3>
+      
+      <cont3 xx="02">
+      <grupoGT>
+      <tema>Lenguaje HTML/XML</tema>
+        <carnet>SD14009</carnet>
+        <nombreE>Jessica</nombreE>
+        <apellidos>Sanchez</apellidos>
+        <sexo>F</sexo>
+        <rol>Coordinador</rol>
+      </grupoGT>
+    
+      <grupoGT>
+        <carnet>LO13005</carnet>
+        <nombreE>Edwin</nombreE>
+        <apellidos>Lara</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>FA12045</carnet>
+        <nombreE>Silvia</nombreE>
+        <apellidos>Fernandez</apellidos>
+        <sexo>F</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+       <grupoGT>
+        <carnet>CU15006</carnet>
+        <nombreE>Rosa</nombreE>
+        <apellidos>Cepeda</apellidos>
+        <sexo>F</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      </cont3>
+  </cont2>
+  
+  <cont2>
+    <tipoG tipo="Discusión">
+      <numeroG>03</numeroG>
+      <Docente>Ing. Carlos Balmore Ortiz</Docente>
+      <evaluacion>Revisión de Guia</evaluacion>
+      <porcentaje>15%</porcentaje>
+    </tipoG>
+    <cont3 xx="01">
+      <grupoGT>
+        <tema>Tipos de Servidores WEB</tema>
+        <carnet>CF13001</carnet>
+        <nombreE>Vanessa</nombreE>
+        <apellidos>Castro</apellidos>
+        <sexo>F</sexo>
+        <rol>Coordinador</rol>
+      </grupoGT>
+    
+      <grupoGT>
+        <carnet>HA10007</carnet>
+        <nombreE>Josseline</nombreE>
+        <apellidos>Hernández</apellidos>
+        <sexo>F</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+      <grupoGT>
+        <carnet>SU14011</carnet>
+        <nombreE>Edgar</nombreE>
+        <apellidos>Soriano</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+      <grupoGT>
+        <carnet>GP15006</carnet>
+        <nombreE>Esteban</nombreE>
+        <apellidos>Guzman</apellidos>
+        <sexo>M</sexo>
+        <rol>Integrante</rol>
+      </grupoGT>
+      
+      </cont3>
+  </cont2>
+</universidad>

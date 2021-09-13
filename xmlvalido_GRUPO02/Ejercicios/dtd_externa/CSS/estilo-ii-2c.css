@@ -1,0 +1,42 @@
+﻿		/*estilo-ii-2c.css    NA15005*/
+
+fichero{
+	background-color:#7ab6b4;
+}
+
+ficha {
+	display: block;
+}
+
+nombre[sexo]::before {
+	content: " (Género " attr(sexo) " ) ";
+	color:#ec5900;
+	font-size: 5mm;
+}
+
+nombre[sexo]::after {
+	content: " sexo: " attr(sexo);
+	font-family: "Segoe UI";
+	color:#ec0036;
+}
+
+apellido {
+	color: yellow;
+	font-style: normal;
+	font-family: "Consolas";
+	display: block;
+}
+
+direccion {
+	color: red;
+	font-family: "Verdana";
+	font: bold 125% cursive; 
+	display inline;
+}
+
+DUI {
+	color: #bb0d67;
+	font-family: "Fantasy";
+	font: oblique bold 100% cursive;
+	display: block;
+}

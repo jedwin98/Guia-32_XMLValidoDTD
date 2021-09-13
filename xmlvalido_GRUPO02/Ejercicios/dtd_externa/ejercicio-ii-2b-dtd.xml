@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="/Ejercicios/dtd_externa/CSS/estilo-ii-2b.css" ?>
+<!DOCTYPE fichero SYSTEM "ejercicio_ii_2b.dtd">
+<fichero>
+<a id="menu" href="../ejercicio_index.html" xmlns="http://www.w3.org/1999/xhtml">Volver</a>
+<ficha>
+  <nombre sexo="masculino" edad="29">Gustavo</nombre>
+  <apellido>Corvera</apellido>
+  <direccion>Ciudad Universitaria</direccion>
+  <DUI>123456789-0</DUI>
+</ficha>
+</fichero>

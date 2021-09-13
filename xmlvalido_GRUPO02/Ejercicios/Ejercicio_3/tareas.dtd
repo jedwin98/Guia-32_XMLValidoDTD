@@ -1,0 +1,53 @@
+<!--DTD Externo Ejercicio3-->
+
+<!ELEMENT universidad(a*, cont1, cont2+)>
+
+<!ELEMENT a (#PCDATA)>
+  <!ATTLIST a id CDATA #REQUIRED>
+  <!ATTLIST a href CDATA #REQUIRED>
+  <!ATTLIST a xmlns CDATA #FIXED "http://www.w3.org/1999/xhtml">
+
+<!--Primer contenedor-->
+  <!ELEMENT cont1(facultad, carrera, materia)>
+    <!ELEMENT facultad(nombreF)>
+      <!ATTLIST facultad codigoF CDATA #REQUIRED>
+    <!ELEMENT nombreF (#PCDATA)>
+    
+    <!ELEMENT carrera(nombreC)>
+      <!ATTLIST carrera codigoC CDATA #REQUIRED>
+    <!ELEMENT nombreC (#PCDATA)>
+    
+    <!ELEMENT materia(nombreM)>
+      <!ATTLIST materia codigoM CDATA #REQUIRED>
+    <!ELEMENT nombreM(#PCDATA)>
+  
+  <!--Segundo contenedor-->
+  <!ELEMENT cont2(tipoG, cont3)>
+    <!ELEMENT tipoG(numeroG, Docente)>
+      <!ATTLIST tipoG tipo CDATA #REQUIRED>
+    <!ELEMENT numeroG (#PCDATA)>
+    <!ELEMENT Docente (#PCDATA)>
+    <!ELEMENT evaluacion (#PCDATA)>
+    <!ELEMENT porcentaje (#PCDATA)>
+    
+    <!--Tercer contenedor-->
+    <!ELEMENT cont3(grupoGT)>
+      <!ATTLIST cont3 xx CDATA #REQUIRED>
+      
+      <!-- GrupoGT-->
+      <!ELEMENT grupoGT(tema,carnet, nombreE, apellidos, sexo*, rol?)>
+        <!ELEMENT tema (#PCDATA)>
+        <!ELEMENT carnet (#PCDATA)>
+        <!ELEMENT nombreE (#PCDATA)>
+        <!ELEMENT apellidos (#PCDATA)>
+        <!ELEMENT sexo(M|F) #IMPLIED>
+        <!ELEMENT rol(Coordinador|Integrante) #REQUIRED>
+      
+      
+      
+      
+      
+      
+      
+      
+      

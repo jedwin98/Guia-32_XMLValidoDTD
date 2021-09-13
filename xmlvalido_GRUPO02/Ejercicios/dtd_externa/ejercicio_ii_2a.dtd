@@ -1,0 +1,15 @@
+<!-- ejercicio_ii_2a.dtd -->
+<!ELEMENT fichero (a*, ficha+)>
+
+<!ELEMENT a (#PCDATA)>
+  <!ATTLIST a id CDATA #REQUIRED>
+  <!ATTLIST a href CDATA #REQUIRED>
+  <!ATTLIST a xmlns CDATA #FIXED "http://www.w3.org/1999/xhtml">
+  
+<!ELEMENT ficha (nombre, apellido, direccion*, dui?)>
+<!ELEMENT nombre (#PCDATA)>
+  <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+  <!ATTLIST nombre edad  CDATA  #IMPLIED>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT DUI (#PCDATA)>

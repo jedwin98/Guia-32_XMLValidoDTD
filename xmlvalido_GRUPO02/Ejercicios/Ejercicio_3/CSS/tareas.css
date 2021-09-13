@@ -1,0 +1,169 @@
+﻿universidad{
+	background-color: #ba7905;
+}
+
+a{
+	font-size:5mm;
+	color: white;
+	font-family: cursive;
+}
+
+cont1{
+	display: table;
+	border-spacing: 10px;
+	border: gold 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+facultad{
+	display: block;
+}
+
+facultad[codigoF]::before {
+	content: " (código: " attr(codigoF) ") ";
+	color:#3cd22e;
+	font-family: "Segoe IU", sans-serif;	
+	font-size:5mm;
+}
+
+nombreF{
+	display: inline;
+	font-size:5mm;
+	font-family: "Segoe IU", sans-serif;
+	font-style: italic;
+	color:gold;
+}
+
+carrera{
+	display: block;
+}
+
+carrera[codigoC]::before {
+	content: " (codigo: " attr(codigoC) ") ";
+	color:#3cd22e;
+	font-family: "Segoe IU", sans-serif;	
+	font-size:5mm;
+}
+
+nombreC{
+	display: inline;
+	font-size:5mm;
+	font-family: "Segoe IU", sans-serif;
+	font-style: italic;
+	color:gold;
+}
+
+materia{
+	display: block;
+}
+materia[codigoM]::before {
+	content: " (codigo: " attr(codigoM) ") ";
+	color:#3cd22e;
+	font-family: "Segoe IU", sans-serif;	
+	font-size:5mm;
+}
+
+nombreM{
+	display: inline;
+	font-size:5mm;
+	font-family: "Segoe IU", sans-serif;
+	font-style: italic;
+	color:gold;
+}
+
+cont2{
+	display: table;
+	border-spacing: 10px;
+	border: dark 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+tipoG{
+	display: table;
+	border-spacing: 10px;
+	border: #314e30 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+tipoG[tipo]::before {
+	content: " (Grupo: " attr(tipo) ") ";
+	color: #3b13a2;
+	font-family: "Segoe IU", sans-serif;	
+	font-size:5mm;;
+}
+
+numeroG{
+	display: block;
+	font-size:5mm;
+	font-family: "Segoe IU", sans-serif;
+	font-style: italic;
+	color: #d40930;
+}
+
+Docente{
+	display: block;
+	font-size:5mm;
+	font-family: "Segoe IU", sans-serif;
+	font-style: italic;
+	color: #d40930;
+}
+evaluacion{
+	display:block;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 5mm;
+	color: #3b13a2;
+}
+
+porcentaje{
+	display:block;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 5mm;
+	color: #3b13a2;
+}
+
+cont3{
+	display: table;
+	border-spacing: 10px;
+	border: black 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+cont3[xx]::before {
+	content: " (Grupo #: " attr(xx) ") ";
+	color:#3cd22e;
+	font-family: "Segoe IU", sans-serif;	
+	font-size:5mm;
+}
+
+grupoGT{
+	display: block;
+}
+
+grupoGT[id]::before {
+	content: " (codigo: " attr(id) ") ";
+	color: red;
+	font-size:6mm;
+}
+
+tema{
+	display: block;
+	font-size:4mm;
+	font-family: "Segoe IU", sans-serif;
+	font-style: italic;
+	color: #06433f;
+}
+

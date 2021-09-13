@@ -1,0 +1,33 @@
+		/*estilo-ii-2a.css    */
+
+:root {
+	--red: #dcb0a0;
+}
+
+fichero{
+	background-color: var(--red);
+}
+
+ficha {
+	display: block;
+}
+nombre[sexo]::before {content: " (Género " attr(sexo) " ) "; color:green; font-size:5mm;}
+nombre[sexo]::after {content: " sexo: " attr(sexo);color: red;}
+apellido {
+	color: white;
+	font: 100% sans-serif;
+	font-style: normal;
+	display: block;
+}
+direccion {
+	color: yellow;
+	font-family: "Segoe IU", sans-serif;
+	display inline;
+}
+DUI {
+	color: purple;
+	font: 100 %;
+	font-family: "Consolas", sans-serif;
+	font-style: normal;
+	display inline;
+}
